@@ -1,0 +1,110 @@
+{
+  "kernel": "python",
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "**Recuerde no agregar o quitar celdas en este notebook, ni modificar su tipo. Si lo hace, el sistema automaticamente lo calificar\u00e1 con cero punto cero (0.0)**"
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "Para resolver los problemas presentados, use el siguiente conjunto de datos."
+    },
+    {
+      "cell_type": "code",
+      "grade": false,
+      "source": "%%writefile data.tsv\nB\t1999-08-28\t14\nE\t1999-12-06\t12\nE\t1993-07-21\t17\nC\t1991-02-12\t13\nE\t1995-04-25\t16\nA\t1992-08-22\t14\nB\t1999-06-11\t12\nE\t1993-01-27\t13\nE\t1999-09-10\t11\nE\t1990-05-03\t16\nE\t1994-02-14\t5\nA\t1988-04-27\t12\nA\t1990-10-06\t10\nE\t1985-02-12\t16\nE\t1998-09-14\t16\nB\t1994-08-30\t17\nA\t1997-12-15\t13\nB\t1995-08-23\t10\nB\t1998-11-22\t13\nB\t1997-04-09\t14\nE\t1993-12-27\t18\nE\t1999-01-14\t15\nA\t1992-09-19\t18\nB\t1993-03-02\t14\nB\t1999-10-21\t13\nA\t1990-08-31\t12\nC\t1994-01-25\t6\nE\t1990-02-09\t18\nA\t1990-09-26\t14\nA\t1993-05-08\t16\nB\t1995-09-06\t14\nE\t1991-02-18\t14\nA\t1993-01-11\t14\nA\t1990-07-22\t18\nC\t1994-09-09\t15\nC\t1994-07-27\t7\nD\t1990-10-10\t15\nA\t1990-09-05\t11\nB\t1991-10-01\t15\nA\t1994-10-25\t13"
+    },
+    {
+      "cell_type": "code",
+      "grade": false,
+      "source": "%run bd.py\n%pig_init"
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "#\u00a0Problema 1\n\nCalcule la cantidad de registros por letra."
+    },
+    {
+      "cell_type": "code",
+      "grade": true,
+      "test": false,
+      "execution_count": 3,
+      "points": 5,
+      "source": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "(A,12)\n(B,10)\n(C,4)\n(D,1)\n(E,13)\n"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "# Problema 2\n\nOrdene la tabla por letra y valor (3ra columna)."
+    },
+    {
+      "cell_type": "code",
+      "grade": true,
+      "test": false,
+      "execution_count": 4,
+      "points": 5,
+      "source": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "(A,1990-10-06,10)\n(A,1990-09-05,11)\n(A,1988-04-27,12)\n(A,1990-08-31,12)\n(A,1997-12-15,13)\n(A,1994-10-25,13)\n(A,1993-01-11,14)\n(A,1992-08-22,14)\n(A,1990-09-26,14)\n(A,1993-05-08,16)\n(A,1990-07-22,18)\n(A,1992-09-19,18)\n(B,1995-08-23,10)\n(B,1999-06-11,12)\n(B,1998-11-22,13)\n(B,1999-10-21,13)\n(B,1997-04-09,14)\n(B,1995-09-06,14)\n(B,1993-03-02,14)\n(B,1999-08-28,14)\n(B,1991-10-01,15)\n(B,1994-08-30,17)\n(C,1994-01-25,6)\n(C,1994-07-27,7)\n(C,1991-02-12,13)\n(C,1994-09-09,15)\n(D,1990-10-10,15)\n(E,1994-02-14,5)\n(E,1999-09-10,11)\n(E,1999-12-06,12)\n(E,1993-01-27,13)\n(E,1991-02-18,14)\n(E,1999-01-14,15)\n(E,1990-05-03,16)\n(E,1998-09-14,16)\n(E,1985-02-12,16)\n(E,1995-04-25,16)\n(E,1993-07-21,17)\n(E,1990-02-09,18)\n(E,1993-12-27,18)\n"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "# Problema 3\n\nObtenga los cinco registros con los valores m\u00e1s peque\u00f1os en la tercera columna."
+    },
+    {
+      "cell_type": "code",
+      "grade": true,
+      "test": false,
+      "execution_count": 5,
+      "points": 5,
+      "source": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "(5)\n(6)\n(7)\n(10)\n(10)\n"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "---"
+    },
+    {
+      "cell_type": "code",
+      "grade": false,
+      "source": "!rm data.* pig_*"
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "---"
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "Para realizar la evaluaci\u00f3n autom\u00e1tica de este libro:\n\n* Abra un Terminal.\n* Asegurece que esat en la misma carpeta que contiene este notebook.\n* Salve el notebook.\n* Ejecute el siguiente comando:\n\n      ./gradetool 03-Taller.ipynb"
+    },
+    {
+      "cell_type": "markdown",
+      "grade": false,
+      "source": "---"
+    }
+  ]
+}
