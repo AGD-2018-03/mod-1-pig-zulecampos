@@ -9,7 +9,7 @@
     {
       "cell_type": "markdown",
       "grade": false,
-      "source": "Para los siguientes problemas, use los siguientes datos."
+      "source": "Use el siguiente conjunto de datos para resolver los problemas propuestos. Use [gradetool](gradetool.md) para verificar las respuestas del notebook."
     },
     {
       "cell_type": "code",
@@ -77,7 +77,7 @@
         {
           "name": "stdout",
           "output_type": "stream",
-          "text": "((a,aaa),286)\n((a,bbb),352)\n((a,ccc),506)\n((a,ddd),506)\n((a,eee),330)\n((a,fff),440)\n((a,ggg),286)\n((a,hhh),352)\n((a,iii),396)\n((a,jjj),396)\n((b,aaa),156)\n((b,bbb),192)\n((b,ccc),276)\n((b,ddd),276)\n((b,eee),180)\n((b,fff),240)\n((b,ggg),156)\n((b,hhh),192)\n((b,iii),216)\n((b,jjj),216)\n((c,aaa),221)\n((c,bbb),272)\n((c,ccc),391)\n((c,ddd),391)\n((c,eee),255)\n((c,fff),340)\n((c,ggg),221)\n((c,hhh),272)\n((c,iii),306)\n((c,jjj),306)\n((d,aaa),169)\n((d,bbb),208)\n((d,ccc),299)\n((d,ddd),299)\n((d,eee),195)\n((d,fff),260)\n((d,ggg),169)\n((d,hhh),208)\n((d,iii),234)\n((d,jjj),234)\n((e,aaa),195)\n((e,bbb),240)\n((e,ccc),345)\n((e,ddd),345)\n((e,eee),225)\n((e,fff),300)\n((e,ggg),195)\n((e,hhh),240)\n((e,iii),270)\n((e,jjj),270)\n((f,aaa),325)\n((f,bbb),400)\n((f,ccc),575)\n((f,ddd),575)\n((f,eee),375)\n((f,fff),500)\n((f,ggg),325)\n((f,hhh),400)\n((f,iii),450)\n((f,jjj),450)\n((g,aaa),117)\n((g,bbb),144)\n((g,ccc),207)\n((g,ddd),207)\n((g,eee),135)\n((g,fff),180)\n((g,ggg),117)\n((g,hhh),144)\n((g,iii),162)\n((g,jjj),162)\n"
+          "text": "    \n((a,aaa),5)\n((a,bbb),7)\n((a,ccc),13)\n((a,ddd),13)\n((a,eee),7)\n((a,fff),10)\n((a,ggg),8)\n((a,hhh),8)\n((a,iii),7)\n((a,jjj),10)\n((b,aaa),4)\n((b,bbb),7)\n((b,ccc),5)\n((b,ddd),7)\n((b,eee),5)\n((b,fff),8)\n((b,ggg),4)\n((b,hhh),7)\n((b,iii),7)\n((b,jjj),5)\n((c,aaa),5)\n((c,bbb),4)\n((c,ccc),12)\n((c,ddd),9)\n((c,eee),6)\n((c,fff),8)\n((c,ggg),7)\n((c,hhh),7)\n((c,iii),8)\n((c,jjj),8)\n((d,aaa),4)\n((d,bbb),6)\n((d,ccc),7)\n((d,ddd),5)\n((d,eee),6)\n((d,fff),8)\n((d,ggg),6)\n((d,hhh),4)\n((d,iii),9)\n((d,jjj),8)\n((e,aaa),3)\n((e,bbb),8)\n((e,ccc),9)\n((e,ddd),7)\n((e,eee),7)\n((e,fff),9)\n((e,ggg),4)\n((e,hhh),4)\n((e,iii),8)\n((e,jjj),3)\n((f,aaa),8)\n((f,bbb),10)\n((f,ccc),13)\n((f,ddd),17)\n((f,eee),11)\n((f,fff),11)\n((f,ggg),9)\n((f,hhh),10)\n((f,iii),10)\n((f,jjj),12)\n((g,aaa),3)\n((g,bbb),3)\n((g,ccc),6)\n((g,ddd),5)\n((g,eee),4)\n((g,fff),5)\n((g,ggg),4)\n((g,hhh),3)\n((g,iii),4)\n((g,jjj),6)\n"
         }
       ]
     },

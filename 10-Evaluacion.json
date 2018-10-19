@@ -9,7 +9,7 @@
     {
       "cell_type": "markdown",
       "grade": false,
-      "source": "Para resolver los problemas propuestos, use la siguiente tabla."
+      "source": "Use el siguiente conjunto de datos para resolver los problemas propuestos. Use [gradetool](gradetool.md) para verificar las respuestas del notebook."
     },
     {
       "cell_type": "code",
@@ -495,16 +495,6 @@
       "cell_type": "code",
       "grade": false,
       "source": "!rm pig_* data.csv"
-    },
-    {
-      "cell_type": "markdown",
-      "grade": false,
-      "source": "---"
-    },
-    {
-      "cell_type": "markdown",
-      "grade": false,
-      "source": "Para realizar la evaluaci\u00f3n autom\u00e1tica de este libro:\n\n* Abra un Terminal.\n* Asegurece que esat en la misma carpeta que contiene este notebook.\n* Salve el notebook.\n* Ejecute el siguiente comando:\n\n      ./gradetool 09-Evaluacion.ipynb"
     },
     {
       "cell_type": "markdown",
