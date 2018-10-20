@@ -19,7 +19,7 @@
     {
       "cell_type": "code",
       "grade": false,
-      "source": "%run bd.py\n%pig_init"
+      "source": "%load_ext bigdata\n%pig_init"
     },
     {
       "cell_type": "code",
